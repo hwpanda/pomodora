@@ -1,0 +1,23 @@
+{
+	"name": "pomodoro",
+	"version": "1.0.0",
+	"description": "pomodoro timer",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \\\"Error: no test specified\\\" && exit 1",
+		"start": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hwpanda/pomodora.git"
+	},
+	"author": "Haobo Wang",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "15.3.0"
+	},
+	"dependencies": {
+		"progressbar.js": "^1.1.0",
+		"timer.js": "^1.0.4"
+	}
+}
